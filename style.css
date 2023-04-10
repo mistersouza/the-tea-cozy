@@ -1,0 +1,207 @@
+/* Change default box-sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Set default margin to 0 */
+* {
+    margin: 0;
+}
+
+/* Set background color and allow relative height in the application */
+html, body {
+    background-color: #fff; 
+    height: 100%;
+}
+
+/* typographic */
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Helvetica, Arial, sans-serif';
+    color: #fff5ee;
+    --webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+li {
+    list-style: none;
+}
+
+/* Set image default */
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set address font-style to normal */
+
+address {
+    font-style: normal;
+}
+
+header {
+    margin: 0 auto;
+    width: 80rem;
+    padding: 1rem;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff5ee;
+    height: 4rem;
+}
+
+a {
+    text-underline-offset: 2px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 3rem;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-options li {
+    margin: 0 1rem;
+}
+
+.menu-options li a {
+    color: #fff5ee;
+}
+
+main {
+    background-color: #000;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.hero-container {
+    background-image: url('/assets/images/img-mission-background.webp');
+    height: 40rem;
+    width: 75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text-container {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #000;
+}
+
+.feature-text {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.feature-teas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 62rem;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.tea-img {
+    height: 12.5rem;
+    margin: .5rem 0;
+}
+
+.locations-container {
+    background-image: url('/assets/images/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 75rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.locations-title {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.locations-cards {
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.location-card {
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    background-color: #000;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.location-card address {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.locations-contact {
+    height: 12rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.locations-contact address {
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin: 0 auto;
+    width: 80rem;
+    background-color: #000;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
